@@ -1,10 +1,10 @@
-# Creational
-This part will explain about 5 Creational Design Patterns.
+# Structural
+This part will explain about 7 Structural Design Patterns.
 
 ![alt text](./structural.png?raw=true)
 
 ## Content
-Below is a list of 5 Creational Design Patterns and their usage.
+Below is a list of 7 Structural Design Patterns and their usage.
 
 |   NO      |   Name                        |   Usage       |
 |   :---:   |   :---                        |   :---        |
