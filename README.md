@@ -7,7 +7,7 @@ Below is a list of 23 Design Patterns ordered by used frequency.
 1. Creational
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
-|   :---:   |   :---:                       |   :---:       |   :---:       |
+|   :---:   |   :---                       |   :---:       |   :---:       |
 |   1       |   Abstract Factory            |   High        |   ✅          |
 |   2       |   Factory Method              |   High        |   ⬜️          |
 |   3       |   Singleton                   |   High-Medium |   ⬜️          |
