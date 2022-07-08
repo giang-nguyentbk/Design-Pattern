@@ -7,7 +7,7 @@ This part will explain about 5 Creational Design Patterns.
 Below is a list of 5 Creational Design Patterns and their usage.
 
 |   NO      |   Name                        |   Usage       |
-|   :---:   |   :---                       |   :---       |
+|   :---:   |   :---                        |   :---        |
 |   1       |   Abstract Factory            |   It allows us to create objects without specifying their concrete type        |
 |   2       |   Factory Method              |   It allows us to create object without specifying the exact class to create        |
 |   3       |   Singleton                   |   It makes sure that there is only one instance of an object is created |

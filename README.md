@@ -7,7 +7,7 @@ Below is a list of 23 Design Patterns ordered by used frequency.
 1. Creational
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
-|   :---:   |   :---                       |   :---:       |   :---:       |
+|   :---:   |   :---                        |   :---:       |   :---:       |
 |   1       |   Abstract Factory            |   High        |   ✅          |
 |   2       |   Factory Method              |   High        |   ⬜️          |
 |   3       |   Singleton                   |   High-Medium |   ⬜️          |
@@ -17,7 +17,7 @@ Below is a list of 23 Design Patterns ordered by used frequency.
 2. Structural
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
-|   :---:   |   :---:                       |   :---:       |   :---:       |
+|   :---:   |   :---                        |   :---:       |   :---:       |
 |   6       |   Facade                      |   High        |   ⬜️          |
 |   7       |   Adapter                     |   High-Medium |   ⬜️          |
 |   8       |   Composite                   |   High-Medium |   ⬜️          |
@@ -29,7 +29,7 @@ Below is a list of 23 Design Patterns ordered by used frequency.
 3. Behavioral
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
-|   :---:   |   :---:                       |   :---:       |   :---:       |
+|   :---:   |   :---                        |   :---:       |   :---:       |
 |   13      |   Interator                   |   High        |   ⬜️          |
 |   14      |   Observer                    |   High        |   ⬜️          |
 |   15      |   Command                     |   High-Medium |   ⬜️          |
