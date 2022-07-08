@@ -4,10 +4,10 @@ This repo will implement 23 Design Patterns in C++.
 ## Content
 Below is a table of 23 Design Patterns ordered by used frequency.
 
-|   a   |   b   |
-| :---: | :---: |
-|   >   |   1   |
-|   2   |       |
+| a | b |
+| --- | --- |
+| > | 1 |
+| 2 ||
 
 1. Creational
    - Abstract Factory           [high]
