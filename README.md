@@ -1,6 +1,8 @@
 # Design-Pattern
 This repo will implement 23 Design Patterns in C++.
 
+![alt text](./DesignPattern.jpg?raw=true)
+
 ## Content
 Below is a list of 23 Design Patterns ordered by used frequency.
 
