@@ -5,7 +5,7 @@ This repo will implement 23 Design Patterns in C++.
 Below is a list of 23 Design Patterns ordered by used frequency.
 
 1. Creational
-   - Abstract Factory           <high>
+   - Abstract Factory           [high]
    - Factory Method             <high>
    - Singleton                  <high-medium>
    - Prototype                  <medium>
