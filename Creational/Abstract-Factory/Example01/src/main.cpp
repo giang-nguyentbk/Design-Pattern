@@ -19,11 +19,12 @@ class Wheel {
         Color color;
     protected:
         // Provide mechanism for only car vendors to re-paint products.
-        virtual void setColor(Color p_color) { 
+        void setColor(Color p_color) { 
             this->color = p_color;
         }
     public:
         Wheel() : color(NONE) {}
+        virtual ~Wheel() {}
         Color getColor() { // All people can get products color.
             return this->color;
         }
@@ -34,11 +35,12 @@ class Chassis {
         Color color;
     protected:
         // Provide mechanism for only car vendors to re-paint products.
-        virtual void setColor(Color p_color) {
+        void setColor(Color p_color) {
             this->color = p_color;
         }
     public:
         Chassis() : color(NONE) {}
+        virtual ~Chassis() {}
         Color getColor() { // All people can get products color.
             return this->color;
         }
@@ -53,10 +55,12 @@ class CarFactory {
         virtual Chassis* createChassis() = 0;
 };
 
-// Based on CarFactory, 2 companies named Toyota and Tesla will produce same products 
-// but different styles. We will create 2 class of those factories and their products.
+// Based on CarFactory, 2 companies named Toyota and Tesla will produce 
+// same products but different styles. We will create 
+// 2 class of those factories and their products.
 class ToyotaWheel : public Wheel {
     public:
+        ~ToyotaWheel() {}
         ToyotaWheel() {
             this->setColor(WHITE); // Re-paint the wheel. White is brand color of Toyota.
         };
@@ -64,6 +68,7 @@ class ToyotaWheel : public Wheel {
 
 class ToyotaChassis : public Chassis {
     public:
+        ~ToyotaChassis() {}
         ToyotaChassis() {
             this->setColor(WHITE); // Re-paint the chassis. White is brand color of Toyota.
         };
@@ -82,6 +87,7 @@ class ToyotaFactory : public CarFactory {
 
 class TeslaWheel : public Wheel {
     public:
+        ~TeslaWheel() {}
         TeslaWheel() {
             this->setColor(BLUE); // Re-paint the wheel. Blue is brand color of Tesla.
         }
@@ -89,6 +95,7 @@ class TeslaWheel : public Wheel {
 
 class TeslaChassis : public Chassis {
     public:
+        ~TeslaChassis() {}
         TeslaChassis() {
             this->setColor(BLUE); // Re-paint the chassis. Blue is brand color of Tesla.
         }
