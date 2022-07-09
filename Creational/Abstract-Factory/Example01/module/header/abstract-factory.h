@@ -20,9 +20,10 @@ class Furniture {
 
 class CarAbstractFactory {
     public:
-        virtual Wheel createWheel() = 0;
-        virtual Chassis createChassis() = 0;
-        virtual Furniture createFurniture() = 0;
+        
+        virtual Wheel* createWheel() = 0;
+        virtual Chassis* createChassis() = 0;
+        virtual Furniture* createFurniture() = 0;
 };
 
 
