@@ -104,10 +104,10 @@ class TeslaChassis : public Chassis {
 class TeslaFactory : public CarFactory {
     public:
         ~TeslaFactory() {}
-        Wheel* createWheel() {
+        Wheel* createWheel() override {
             return new TeslaWheel();
         }
-        Chassis* createChassis() {
+        Chassis* createChassis() override {
             return new TeslaChassis();
         }
 };

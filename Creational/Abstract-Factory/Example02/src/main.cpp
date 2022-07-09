@@ -100,10 +100,10 @@ class MacChart : public Chart {
 class MacFactory : public GUIFactory {
     public:
         ~MacFactory() {}
-        Button* createButton() {
+        Button* createButton() override {
             return new MacButton();
         }
-        Chart* createChart() {
+        Chart* createChart() override {
             return new MacChart();
         }
 };
