@@ -10,13 +10,13 @@ Below is a list of 23 Design Patterns ordered by used frequency.
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
 |   :---:   |   :---                        |   :---:       |   :---:       |
-|   1       |   Abstract Factory            |   High        |   ✅          |
-|   2       |   Factory Method              |   High        |   ✅          |
-|   3       |   Singleton                   |   High-Medium |   ⬜️          |
-|   4       |   Prototype                   |   Medium      |   ⬜️          |
-|   5       |   Builder                     |   Medium-Low  |   ⬜️          |
+|   1       |   [Abstract Factory](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Creational/Abstract-Factory)           |   High        |   ✅          |
+|   2       |   [Factory Method](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Creational/Factory-Method)             |   High        |   ✅          |
+|   3       |   [Singleton](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Creational/Singleton)                       |   High-Medium |   ⬜️          |
+|   4       |   [Prototype](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Creational/Prototype)                   |   Medium      |   ⬜️          |
+|   5       |   [Builder](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Creational/Builder)                     |   Medium-Low  |   ⬜️          |
 
-2. Structural
+2. [Structural](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Structural)
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
 |   :---:   |   :---                        |   :---:       |   :---:       |
@@ -28,7 +28,7 @@ Below is a list of 23 Design Patterns ordered by used frequency.
 |   11      |   Decorator                   |   Medium      |   ⬜️          |
 |   12      |   Flyweight                   |   Low         |   ⬜️          |
 
-3. Behavioral
+3. [Behavioral](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Behavioral)
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
 |   :---:   |   :---                        |   :---:       |   :---:       |
