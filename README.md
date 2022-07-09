@@ -6,7 +6,7 @@ This repo will implement 23 Design Patterns in C++.
 ## Content
 Below is a list of 23 Design Patterns ordered by used frequency.
 
-1. Creational
+1. [Creational](https://github.com/giang-nguyentbk/Design-Pattern/tree/main/Creational)
 
 |   NO      |   Name                        |   Frequency   |   Progress    |
 |   :---:   |   :---                        |   :---:       |   :---:       |
